@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationService.Views.PushNavigationPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Label HorizontalOptions="Center" x:Name="DisplayText" Text="Push Navigation Page" />
+            <Button Text="Modal Navigation" Clicked="ModalNavigationOnClicked" />
+            <Button Text="Push Navigation" Clicked="PushNavigationOnClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
